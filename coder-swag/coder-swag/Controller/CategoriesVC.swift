@@ -9,6 +9,9 @@
 import UIKit
 
 class CategoriesVC: UIViewController {
+    
+    //this is to creaate a link to the custom table on the VC
+    @IBOutlet weak var categoryTable : UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
