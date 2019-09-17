@@ -13,4 +13,21 @@ class DataService {
     //static used so only one copy of the data for this app
     //called a singleton
     static let instance = DataService()
+    
+    //create an array as we are not using a database
+    //this will hold the category names and pictues of main groups
+    //of items we are seeling
+    private let categories = [
+        Category(title: "HOODIES", imageName: "hoodies.png"),
+        Category(title: "SHIRTS", imageName: "shirts.png"),
+        Category(title: "HATS", imageName: "hats.png"),
+        Category(title: "DIGITAL", imageName: "digital.png")
+    ]
+    
+    //when this function is called from another part of the program
+    //it will return an array of type category that was just created above
+    //this will then be passed to the cells , table veiw
+    func getCategories() -> [Category] {
+        return categories
+    }
 }
