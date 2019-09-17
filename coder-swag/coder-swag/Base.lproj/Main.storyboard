@@ -34,6 +34,29 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ECd-8T-3WJ" id="s6Y-i6-dMG">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="128.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="WLP-F8-Y5H">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="128.5"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLb-lL-JsR">
+                                                    <rect key="frame" x="101" y="54" width="173" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="7YQ-AL-rRQ"/>
+                                                        <constraint firstAttribute="width" constant="173" id="A8T-Wz-J0t"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="FLb-lL-JsR" firstAttribute="centerY" secondItem="s6Y-i6-dMG" secondAttribute="centerY" id="IY1-Q8-mwM"/>
+                                                <constraint firstAttribute="trailing" secondItem="WLP-F8-Y5H" secondAttribute="trailing" id="OaL-Mw-AbA"/>
+                                                <constraint firstItem="WLP-F8-Y5H" firstAttribute="top" secondItem="s6Y-i6-dMG" secondAttribute="top" id="fce-wN-zs7"/>
+                                                <constraint firstAttribute="bottom" secondItem="WLP-F8-Y5H" secondAttribute="bottom" id="odd-hB-DZt"/>
+                                                <constraint firstItem="FLb-lL-JsR" firstAttribute="centerX" secondItem="s6Y-i6-dMG" secondAttribute="centerX" id="sOy-07-axT"/>
+                                                <constraint firstItem="WLP-F8-Y5H" firstAttribute="leading" secondItem="s6Y-i6-dMG" secondAttribute="leading" id="wSU-7Z-JRr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -79,4 +102,7 @@
             <point key="canvasLocation" x="322" y="134"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="digital" width="1024" height="703"/>
+    </resources>
 </document>
