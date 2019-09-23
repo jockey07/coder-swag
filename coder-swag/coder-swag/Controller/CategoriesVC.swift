@@ -31,6 +31,17 @@ class CategoriesVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     //what is in each cell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        //creates varaiable cell
+        //this will then look into the data source for the relavent info
+        //in this case into the array
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell") as? CategoryCell{
+            let category = DataService.instance.getCategories()[indexPath.row]
+            cell.updateViews(category: category)
+            return cell
+        }else{
+            return CategoryCell()
+        }
+        
     }
 
 
