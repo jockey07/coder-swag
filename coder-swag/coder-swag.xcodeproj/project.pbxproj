@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872B8CF2233B0A9B00561C62 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B8CF1233B0A9B00561C62 /* ProductCell.swift */; };
 		87FAB6F523307A8F00583767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB6F423307A8F00583767 /* AppDelegate.swift */; };
 		87FAB6F723307A8F00583767 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB6F623307A8F00583767 /* CategoriesVC.swift */; };
 		87FAB6FA23307A8F00583767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FAB6F823307A8F00583767 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		872B8CF1233B0A9B00561C62 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		87FAB6F123307A8F00583767 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FAB6F423307A8F00583767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87FAB6F623307A8F00583767 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				87FAB70923309E1A00583767 /* CategoryCell.swift */,
+				872B8CF1233B0A9B00561C62 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				87FAB6F723307A8F00583767 /* CategoriesVC.swift in Sources */,
 				87FAB6F523307A8F00583767 /* AppDelegate.swift in Sources */,
 				87FAB70A23309E1A00583767 /* CategoryCell.swift in Sources */,
+				872B8CF2233B0A9B00561C62 /* ProductCell.swift in Sources */,
 				87FAB70C23318A1B00583767 /* Category.swift in Sources */,
 				87FAB70F23318E5900583767 /* DataService.swift in Sources */,
 			);
